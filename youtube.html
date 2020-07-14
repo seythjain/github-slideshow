@@ -1,0 +1,62 @@
+<html>
+	<head>
+<link rel = 'shortcut icon' class = 'new' href = 'youtube.png'>
+		<title>Youtube</title>
+	</head>
+	
+	<body>	
+		
+<button onclick="myFunction2()">for you</button>	
+	<form id="input2">
+		<input type="text" name="name" value="" width="1000px" />
+	</form>	
+	<button type="button" onclick="myFunction()">enter</button>
+	<h3>pokemon</h3>
+	<iframe width="200" height="100" src="https://www.youtube.com/embed/pQt9Vsc7S5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	<iframe width="200" height="100" src="https://www.youtube.com/embed/tSa4wQIaSpM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	<iframe width="200" height="100" src="https://www.youtube.com/embed/N3Rf6SVoIDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	<iframe width="200" height="100" src="https://www.youtube.com/embed/EpyGGA3rxCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<br>
+	<h3>nursery rhymes</h3>
+	<iframe width="200" height="100" src="https://www.youtube.com/embed/DjpbzHnLmhc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	<iframe width="200" height="100" src="https://www.youtube.com/embed/2DsbojM2Qc0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	<iframe width="200" height="100" src="https://www.youtube.com/embed/nlVCrUXEFwo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<br>
+	<h3>coding</h3>
+	<iframe width="200" height="100" src="https://www.youtube.com/embed/bWPMSSsVdPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	<iframe width="200" height="100" src="https://www.youtube.com/embed/videoseries?list=PLsyeobzWxl7qtP8Lo9TReqUMkiOp446cV" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	<iframe width="200" height="100" src="https://www.youtube.com/embed/1PnVor36_40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<script>	
+	function myFunction()
+	{
+		var myForm = document.getElementById("input2");
+		var input3 = myForm.elements[0].value;
+	
+	
+	if (input3 == "pokemon playlist" ) {
+		// alert("Page location is " + window.location.href);
+		window.location.assign("playlist.html");
+		alert("dwuhefius");
+	} else if (input3 == "shay and shail's playdate videos" ) {
+		// alert("Page location is " + window.location.href);
+		window.location.assign("playdate_songs.html");
+	} else if (input3 == "shay and shail's videos" ) {
+		// alert("Page location is " + window.location.href);
+		window.location.assign("shay_and_shail_playlist.html");
+	}
+	  else {
+	  alert("ouhfiudsijk")
+	  }
+	}
+	myFunction2 = function(){
+	window.location.assign("youtube's_for_you.html")
+	}
+	</script>
+</html>
